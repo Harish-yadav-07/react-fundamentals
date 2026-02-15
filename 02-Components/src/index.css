@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica';
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.card{
+  background-color: crimson;
+  padding: 15px;
+  line-height: 1.4;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.main-nav{
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: fit-content;
+  display: flex;
+  padding: 10px;
+  margin: 15px;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.btns{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btns:hover{
+  color: brown  ;
+}
